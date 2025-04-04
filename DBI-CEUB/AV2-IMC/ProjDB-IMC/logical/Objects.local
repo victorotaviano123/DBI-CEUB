@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C447F1E0-F373-CC48-68D9-E2655371BDC2" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F12DBF3-524F-88B1-34E3-008D966D82EC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="901E5D49-8F88-A514-E1E7-96C1953C7304" name="IndiceMassaCoporal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F12DBF3-524F-88B1-34E3-008D966D82EC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="00050CF9-6DF9-D35C-4A5C-840D755D2E1D" name="Metas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F12DBF3-524F-88B1-34E3-008D966D82EC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="FC572B27-2439-B149-3BC4-17D664296B39" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="5F12DBF3-524F-88B1-34E3-008D966D82EC" propertySourceId="C447F1E0-F373-CC48-68D9-E2655371BDC2" propertyTargetId="00050CF9-6DF9-D35C-4A5C-840D755D2E1D"/>
+   <object objectType="Relation" objectID="04E93CBD-09D2-BCDC-0767-D394ED29FCC9" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="5F12DBF3-524F-88B1-34E3-008D966D82EC" propertySourceId="00050CF9-6DF9-D35C-4A5C-840D755D2E1D" propertyTargetId="901E5D49-8F88-A514-E1E7-96C1953C7304"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
