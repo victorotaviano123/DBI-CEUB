@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED74C17B-A367-9505-9599-5670FE7140D5" name="Relation_10">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_cpfCliente" id="E00CD699-657D-FC18-19A5-B90470D985D5">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50F8E079-2995-35E4-E376-5E57A5C3E88B" referredColumn="225D3FF1-85F8-7C22-857A-BB61A69839BF"/>
+</associations>
+</Column>
+<Column name="Vendedor_id" id="BAC87828-D235-9A27-F9AA-5653B2662FEE">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12BE4272-0173-66B0-EDE2-614233DEC131" referredColumn="8B34329C-2AE9-8C46-82C4-8F23BAE096FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="558A2FB2-F50D-5986-81A4-56E7EE748B76" name="Relation_10_PK">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00CD699-657D-FC18-19A5-B90470D985D5"/>
+<colUsage columnID="BAC87828-D235-9A27-F9AA-5653B2662FEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50E49DE4-BE68-CEF6-485B-5FBF15957C36" name="Relation_10_Cliente_FK">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<generatorID>79CE5A4D-E53B-777F-DE05-B157700AC523</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00CD699-657D-FC18-19A5-B90470D985D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED04EE0F-2112-4B35-205F-E6DF680F56A9" name="Relation_10_Vendedor_FK">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-09 00:53:28 UTC</createdTime>
+<generatorID>79CE5A4D-E53B-777F-DE05-B157700AC523</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC87828-D235-9A27-F9AA-5653B2662FEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
