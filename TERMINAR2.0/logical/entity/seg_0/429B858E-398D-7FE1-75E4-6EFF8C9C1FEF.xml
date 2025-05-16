@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="429B858E-398D-7FE1-75E4-6EFF8C9C1FEF" name="Endereco">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:44:44 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="41A2E680-AAFC-6577-1B9D-F2AFD574CBCF">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:44:58 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoTitular" id="89D61BF6-3177-40A1-0EC6-F9C8C24C18BE">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:46:25 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoTitular" id="5D1B1250-D8D7-3F32-A822-CA9271A6AE99">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:48:16 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoTitular" id="74AD0B23-E81C-D188-5D41-BEA78202F224">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:48:47 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroEnderecoTitular" id="0AC201A6-99EA-1C50-D73B-39B512D4E864">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:49:26 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1F8C2CD-66A1-5316-AD90-B3D8FD865D83" name="Endereco PK">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-15 23:46:21 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41A2E680-AAFC-6577-1B9D-F2AFD574CBCF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

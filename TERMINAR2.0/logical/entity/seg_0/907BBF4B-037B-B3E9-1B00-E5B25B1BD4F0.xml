@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="907BBF4B-037B-B3E9-1B00-E5B25B1BD4F0" name="AssociadosTitular">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpdDependentes" id="341319E6-7757-FCB8-5443-4FFCEFAA6254">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependentes" id="ED994488-45FB-9B5C-006B-281BFE5AAA9D">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependentes" id="B7A1A524-E307-6690-B761-5939F1C1FCE0">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoDependentes" id="BEA71590-2F0B-E476-F1CA-5CA65B27BE5B">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependente" id="2E01EC4C-AE9D-F78D-3B75-83082A4CD5DF">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:36:59 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1320E06B-9665-0C8F-2165-0B4E27FFB579" name="TelefoneTitular">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:39:43 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="FA548523-6F48-0064-6C08-1359EC21D8ED">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:40:18 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroTitular" id="5B520D24-7181-29A6-F4D0-8878F70C8678">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:41:27 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D46CB93-C1CD-0D60-322B-C44DA4275B14" name="TelefoneTitular PK">
+<createdBy>victor.otaviano</createdBy>
+<createdTime>2025-05-16 00:41:53 UTC</createdTime>
+<ownerDesignName>TERMINAR</ownerDesignName>
+<engineerTo>
+<item key="97FAEE04-D91E-6997-1DB5-EC8695165E8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA548523-6F48-0064-6C08-1359EC21D8ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

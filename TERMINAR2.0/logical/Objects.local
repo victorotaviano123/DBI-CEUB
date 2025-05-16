@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="E62BC3B6-D60F-B790-8990-48A55458687F" name="Associados" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="907BBF4B-037B-B3E9-1B00-E5B25B1BD4F0" name="AssociadosTitular" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FC9FAED4-7FF2-EB0D-E4CA-7BE7AA62163A" name="Dependentes" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="429B858E-398D-7FE1-75E4-6EFF8C9C1FEF" name="Endereco" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8CCF7886-E5DC-BFEE-0D98-E6F31892DD5F" name="Menssalidade" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1320E06B-9665-0C8F-2165-0B4E27FFB579" name="TelefoneTitular" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FC7B0876-487A-CE92-5693-097566B5A0A8" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
